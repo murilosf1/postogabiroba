@@ -1,0 +1,91 @@
+body {
+
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: white;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 56px;
+  text-align: center;
+  margin-bottom: 100px;
+
+}
+
+h2 {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+
+#produtos,
+p {
+  text-align: center;
+}
+
+#produtos .p1 {
+  color: rgba(245, 33, 33, 0.671)
+}
+
+#produtos .p2 {
+  color: rgb(60, 60, 233)
+}
+
+#produtos .p3 {
+  color: rgb(155, 209, 75)
+}
+
+#produtos .p4 {
+  color: black
+}
+
+#produtos .p5 {
+  color: rgb(163, 163, 6)
+}
+
+.p1 span,
+.p2 span,
+.p3 span,
+.p4 span,
+.p5 span {
+  color: #888888;
+}
+
+#whatsicon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+}
+
+#line {
+  background: #333;
+  height: 2px;
+  margin: 200px auto 30px
+}
+
+#links a {
+  color: rgb(73, 70, 70);
+
+}
+
+#links {
+  text-align: center;
+}
+
+#links a+a {
+  margin-left: 28px;
+
+}
